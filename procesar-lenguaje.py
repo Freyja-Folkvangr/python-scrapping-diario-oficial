@@ -24,6 +24,7 @@ for file in files:
 
     # Buscar con regex...
     # ref https://embed.ihateregex.io/make/JTVCJTVFJTQwJTIwJTVDJTVDdCU1QyU1Q3IlNUMlNUNuJTVEJTJCJTVDJTVDcyU1QiU1RSU0MCUyMCU1QyU1Q3QlNUMlNUNyJTVDJTVDbiU1RCUyQiU1QyU1Q3MlNUIlNUUlNDAlMjAlNUMlNUN0JTVDJTVDciU1QyU1Q24lNUQlMkIlMkMlMjBSdXQlNUMlNUNzJTJCJTVDJTVDZCU3QjElMkMyJTdEJTVDJTVDLiU1QyU1Q2QlN0IzJTdEJTVDJTVDLiU1QyU1Q2QlN0IzJTdEJTVCLSU1RCU1QjAtOWtLJTVEJTVDJTVDbg
+    # Me falto el primer nombre, seria agregar un ciclo, pero se entiende la idea.
     personas = re.findall('[^@ \t\r\n]+\s[^@ \t\r\n]+\s[^@ \t\r\n]+, Rut\s+\d{1,2}\.\d{3}\.\d{3}[-][0-9kK]', text)
 
     for p in personas:
