@@ -1,5 +1,7 @@
 # Install
+```python
 pip install -r requirements.txt
+```
 
 ## Referencia del regex horrible: 
 
